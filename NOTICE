@@ -1,0 +1,17 @@
+Asteroid Tracker with NASA NeoWs API
+Copyright 2025 Leonardo Oliveira Sposito da Silva
+
+This project uses data from NASA's Near Earth Object Web Service (NeoWs).  
+NASA API usage is subject to their terms of service: https://api.nasa.gov/
+
+No endorsement by NASA is implied.
+
+This project is licensed under the Apache License, Version 2.0.  
+See the LICENSE file for full license details.
+
+Python libraries used in this project are open-source and governed by their respective licenses.  
+No modifications were made to these libraries beyond usage in data processing and visualization.
+
+Attributions:
+- NASA Open APIs: https://api.nasa.gov/
+- NeoWs (Near Earth Object Web Service): https://api.nasa.gov/neo/
