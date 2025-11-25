@@ -31,22 +31,26 @@ At this stage, the project is in its **early discovery phase**. The focus is on 
 <pre>
 nasa-asteroids/
 │
-├── docs/                 # Deeper documentation
-├── logs/                 # Logs from code runs
-├── notebooks/            # Jupyter notebooks for exploration & prototyping
-├── tests/                # Unit tests
-├── src/                  # Source code (Python modules, pipeline scripts)
-│   ├── custom_logger/    # Custom module for Python logger
-│   └── core/             # Core script of the project
-│       └── main.py       # Main script for running the project
+├── docs/                     # Deeper documentation
+├── logs/                     # Logs from code runs
+├── notebooks/                # Jupyter notebooks for exploration & prototyping
+├── tests/                    # Unit tests
+│   ├── unit/                 # Python code unit tests
+│   └── integration/          # integration tests
+│       └── postman/          # Postman JSON files for API testing
+|
+├── src/                      # Source code (Python modules, pipeline scripts)
+│   ├── custom_logger/        # Custom module for Python logger
+│   └── core/                 # Core script of the project
+│       └── main.py           # Main script for running the project
 │
-├── .gitignore            # Git ignore rules
-├── CHANGELOG.md          # Track project changes
-├── CONTRIBUTING.md       # Contribution guidelines
-├── LICENSE               # License file
-├── NOTICE                # Legal and attribution notices
-├── README.md             # Main project landing page
-└── requirements.txt      # Dependencies
+├── .gitignore                # Git ignore rules
+├── CHANGELOG.md              # Track project changes
+├── CONTRIBUTING.md           # Contribution guidelines
+├── LICENSE                   # License file
+├── NOTICE                    # Legal and attribution notices
+├── README.md                 # Main project landing page
+└── requirements.txt          # Dependencies
 
 </pre>
 
@@ -58,7 +62,7 @@ nasa-asteroids/
 ## Roadmap
 - [x] Create repository and project board
 - [x] Set up initial documentation structure
-- [ ] Explore NASA API endpoints
+- [x] Explore NASA API endpoints
 - [ ] Build first ingestion script
 - [ ] Add testing and CI/CD
 - [ ] Develop transformation pipeline
