@@ -16,6 +16,7 @@ logger.info(f"Setting project root folder name to {project_root} ...")
 logger.info("Defining functions to be used in the main logic ...")
 # place main functions here
 
+
 def main():
     # start market
     start_time = datetime.now()
@@ -28,10 +29,10 @@ def main():
 
     try:
         logger.info("       Running maincls logic of the code ...      ")
-    
+
     except Exception as e:
         logger.error(f"An error occurred: {e}")
-    
+
     finally:
         # finish marker
         logger.info("=" * 50)
@@ -46,7 +47,6 @@ def main():
         duration = end_time - start_time
         logger.info(f"Total execution time: {duration}")
 
-    
 
 if __name__ == "__main__":
     main()
